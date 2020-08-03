@@ -12,7 +12,7 @@
 * [Vista 7 - Facturas electronicas](https://veronidas.github.io/HDIWebProject-master/Factura.html)DONE
 * [Vista 8 - Consulta Unificada de Pagos](https://veronidas.github.io/HDIWebProject-master/Consulta.html)DONE
 * [Vista 9 - Recepcionar el vehículo](https://veronidas.github.io/HDIWebProject-master/Recepcionar.html)RESPONSIVE
-* [Vista 10 - Mi perfil de usuario](https://veronidas.github.io/HDIWebProject-master/Perfil.html) RESPONSIVE
+* [Vista 10 - Mi perfil de usuario](https://veronidas.github.io/HDIWebProject-master/Perfil.html) DONE
 * [Vista 11 - Preguntas frecuentes](https://veronidas.github.io/HDIWebProject-master/Preguntas.html)EN DESARROLLO
 
 
