@@ -71,6 +71,7 @@ input {
     width: 90%;
 }
 
+
 #ramo, #poliza, #cert {
     width: 30%;
 }
@@ -491,6 +492,10 @@ span {
 
 .prueba3 {
   width: 1000px;
+}
+
+.prueba4 {
+  width: 200px;
 }
 
 .hint {
