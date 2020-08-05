@@ -122,7 +122,6 @@ btn-hdi2 {
     transition: 0.3s;
 }
 
-
 .btn-primary1 {
     background-color: #006729;
     font-size: 16px;
@@ -507,12 +506,9 @@ top: calc(100% + 10px);
 left: 15px;
 }
 
-.btnInprocess {
-  background-color: #003661;
-}
-
 .btnVerBitacora{
   background-color: #79B530;
+  color: #fff;
 }
 
 .wrapperProgressBar{ 

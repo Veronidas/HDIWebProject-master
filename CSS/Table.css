@@ -165,7 +165,7 @@
   
   .table100-head th{
     font-family: "Arial", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.2;
     font-weight: unset;
   }
@@ -176,7 +176,7 @@
   
   tbody tr {
     font-family: "Arial", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     color: #808080;
     line-height: 1.2;
     font-weight: unset;
@@ -189,30 +189,30 @@
   }
   
   .column1 {
-    width: 260px;
+    width: auto;
     padding-left: 40px;
   }
   
   .column2 {
-    width: 160px;
+    width: auto;
   }
   
   .column3 {
-    width: 245px;
+    width: auto;
   }
   
   .column4 {
-    width: 200px;
+    width: auto;
     text-align: left;
   }
   
   .column5 {
-    width: 170px;
+    width: auto;
     text-align: right;
   }
   
   .column6 {
-    width: 222px;
+    width: auto;
     text-align: right;
     padding-right: 62px;
   }
