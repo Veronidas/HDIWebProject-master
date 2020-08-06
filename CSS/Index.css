@@ -86,7 +86,7 @@ input {
 }
 .title2 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .card-text {
@@ -445,7 +445,7 @@ span {
   width: 40px;
   height: 100%;
   position: absolute;
-  padding: 12px 0;
+  padding: 0px 0;
   top: 0px;
   right: 0px;
   font-size: 16px;
