@@ -32,212 +32,217 @@
     </header>
     <!-- END HEADER -->
     <!-- CONTAINER MAIN-->
-    <div class="container-fluid p-0 m-0">
-        <div class="row p-0">
-            <div class="container-fluid mb-5">
-                <div class="row p-0">
-                    <!-- LEFT MENU -->
-                    <div class="col-12 pr-0 d-flex justify-content-between d-lg-none">
-                        <div class="pl-0"><img class="" src="Img/logo.jpg" alt="Logo de HDI" />
+    <div class="p-0 m-0">
+        <div class="row p-0 m-0">
+            <div class="col-12">
+                <div>
+                    <div class="row p-0">
+                        <!-- LEFT MENU -->
+                        <div class="col-12 px-0 d-flex justify-content-between d-lg-none">
+                            <div class="px-0"><img class="" src="Img/logo.jpg" alt="Logo de HDI" />
+                            </div>
+                            <div class="align-items-end">
+                                <button class="btn btn-light btnToggle">
+                                    <a class="navbar-toggler-icon"><i class="fas fa-bars"
+                                            style="color:#6C6F70; font-size:28px;"></i></a>
+                                </button>
+                            </div>
                         </div>
-                        <div class="align-items-end mr-3">
-                            <button class="btn btn-light btnToggle">
-                                <a class="navbar-toggler-icon"><i class="fas fa-bars"
-                                        style="color:#6C6F70; font-size:28px;"></i></a>
-                            </button>
-                        </div>
-                    </div>
 
-                    <div class="wrapper d-none d-lg-block col-2 p-0 border-right sidebar">
-                        <div class="flex-column flex-wrap" id="navbarSupportedContent">
-                            <ul class="nav flex-wrap flex-column pt-1 pr-0 mr-0">
-                                <li class="nav-item py-3 pl-xl-5">
-                                    <a class="nav-link title2 text-dark bg-succeed pl-3"
-                                        href="#"><strong>Inicio</strong></a>
-                                </li>
-                                <li class="nav-item pr-0 mr-0">
-                                    <a class="btnLogin text-light title pr-2 pr-lg-5" href="#">
-                                        <span>Denunciar siniestro</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class=" nav flex-column pt-3 pl-xl-3 pr-0 mr-0">
-                                <li class="nav-item">
-                                    <a class="nav-link text-muted" href="#">Mis Seguros</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-muted" href="#">Mis pagos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-muted" href="#">Historial de siniestro</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-muted" href="#">Cheques disponibles</a>
-                                </li>
-                                <li class="nav-item border-bottom pb-4">
-                                    <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
-                                </li>
-                                <li class="nav-item py-3"></li>
-                                <a class="nav-link text-muted" href="#">Mi Perfil</a>
-                                </li>
-                            </ul>
+                        <div class="wrapper d-none d-lg-block col-2 p-0 border-right sidebar">
+                            <div class="flex-column flex-wrap" id="navbarSupportedContent">
+                                <ul class="nav flex-wrap flex-column pt-1 pr-0 mr-0">
+                                    <li class="nav-item py-3 pl-xl-5">
+                                        <a class="nav-link title2 text-dark bg-succeed pl-3"
+                                            href="#"><strong>Inicio</strong></a>
+                                    </li>
+                                    <li class="nav-item pr-0 mr-0">
+                                        <a class="btnLogin text-light title pr-2 pr-lg-5" href="#">
+                                            <span>Denunciar siniestro</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class=" nav flex-column pt-3 pl-xl-3 pr-0 mr-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Mis Seguros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Mis pagos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Historial de siniestro</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-muted" href="#">Cheques disponibles</a>
+                                    </li>
+                                    <li class="nav-item border-bottom pb-4">
+                                        <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
+                                    </li>
+                                    <li class="nav-item py-3"></li>
+                                    <a class="nav-link text-muted" href="#">Mi Perfil</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <!-- END LEFT MENU -->
+                        <!-- END LEFT MENU -->
 
-                    <div class="col-11 col-lg-9 ml-2 ml-lg-5 ">
-                        <section>
-                            <div class="row ml-1">
-                                <div class="col-12 col-lg-8">
-                                    <div class="d-flex flex-wrap card-tex justify-content-between mt-lg-5">
-                                        <p>Mi perfil de usuario:</p>
-                                    </div>
-                                    <div class="row d-flex flex-wrap ml-1">
-                                        <div class="col-12 col-lg-6 d-flex flex-column">
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Nombre">
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Apellido">
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Tipo de persona">
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="RUT">
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="F/ Nacimiento">
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Giro">
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Región">
-                                                </div>
-                                            </div>
+                        <div class="col-11 col-lg-9 ml-2 ml-lg-5 ">
+                            <section>
+                                <div class="row ml-1">
+                                    <div class="col-12 col-lg-8">
+                                        <div class="d-flex flex-wrap card-tex justify-content-between mt-lg-5">
+                                            <p>Mi perfil de usuario:</p>
                                         </div>
-                                        <div class="col-12 col-lg-6 d-flex flex-column">
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Comuna">
+                                        <div class="row d-flex flex-wrap ml-1">
+                                            <div class="col-12 col-lg-6 d-flex flex-column">
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text" placeholder="Nombre">
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text" placeholder="Apellido">
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text"
+                                                            placeholder="Tipo de persona">
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text" placeholder="RUT">
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text" placeholder="F/ Nacimiento">
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text" placeholder="Giro">
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text" placeholder="Región">
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Dirección">
+                                            <div class="col-12 col-lg-6 d-flex flex-column">
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text" placeholder="Comuna">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Email oficina">
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text" placeholder="Dirección">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Email particular">
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text" placeholder="Email oficina">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Fono oficina">
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text"
+                                                            placeholder="Email particular">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class=" d-flex flex-wrap card-text align-items-baseline
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                    <div class="prueba"><input type="text" placeholder="Fono oficina">
+                                                    </div>
+                                                </div>
+                                                <div class=" d-flex flex-wrap card-text align-items-baseline
                                                         justify-content-between pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Fono particular">
+                                                    <div class="prueba"><input type="text"
+                                                            placeholder="Fono particular">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div
-                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-between  pb-5">
-                                                <div class="prueba"><input type="text" placeholder="Email facturación">
+                                                <div
+                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between  pb-5">
+                                                    <div class="prueba"><input type="text"
+                                                            placeholder="Email facturación">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
-                        <section class="bg-light rounded px-4">
-                            <div class="row py-4">
-                                <div class="col-12 w-100">
-                                    <div class="d-flex  flex-wrap text-green justify-content-between">
-                                        <h4>Cambio de clave</h4>
-                                    </div>
-                                    <div class="row d-flex flex-wrap justify-content-around pb-5">
-                                        <div class="col-12 col-lg-5">
-                                            <div class="border-bottom border-dark">
-                                                <label class="mediumf text-muted" for=" password3">Contraseña
-                                                    actual</label>
-                                                <input class="bg-light input-clave" name="password3" type="password"
-                                                    placeholder="******">
-                                                <img class="pl-4 pl-lg-4 ml-lg-4" src="Icons/Icon feather-eye.svg"
-                                                    alt="">
-                                            </div>
-                                            <div class="border-bottom border-dark">
-                                                <label class="mediumf text-muted" for=" password3">Nueva
-                                                    contraseña</label>
-                                                <input class="bg-light input-clave" name="password3" type="password"
-                                                    placeholder="******">
-                                                <img class="pl-4 pl-lg-4 ml-lg-4" src="Icons/Icon feather-eye.svg"
-                                                    alt="">
-                                            </div>
+                            </section>
+                            <section class="bg-light rounded px-4">
+                                <div class="row py-4">
+                                    <div class="col-12 w-100">
+                                        <div class="d-flex  flex-wrap text-green justify-content-between">
+                                            <h4>Cambio de clave</h4>
                                         </div>
-                                        <div class="col-12 col-lg-4 table-inverse">
-                                            <div class="border-bottom border-dark w-60">
-                                                <label class="mediumf text-muted" for=" password3">Repetir
-                                                    Contraseña</label>
-                                                <input class="bg-light input-clave" name="password3" type="password"
-                                                    placeholder="******">
-                                                <img class="pl-4 pl-lg-4 ml-lg-2" src="Icons/Icon feather-eye.svg"
-                                                    alt="">
+                                        <div class="row d-flex flex-wrap justify-content-around pb-5">
+                                            <div class="col-12 col-lg-5">
+                                                <div class="border-bottom border-dark">
+                                                    <label class="mediumf text-muted" for=" password3">Contraseña
+                                                        actual</label>
+                                                    <input class="bg-light input-clave" name="password3" type="password"
+                                                        placeholder="******">
+                                                    <img class="pl-4 pl-lg-4 ml-lg-4" src="Icons/Icon feather-eye.svg"
+                                                        alt="">
+                                                </div>
+                                                <div class="border-bottom border-dark">
+                                                    <label class="mediumf text-muted" for=" password3">Nueva
+                                                        contraseña</label>
+                                                    <input class="bg-light input-clave" name="password3" type="password"
+                                                        placeholder="******">
+                                                    <img class="pl-4 pl-lg-4 ml-lg-4" src="Icons/Icon feather-eye.svg"
+                                                        alt="">
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-12 col-lg-3 table-inverse"><button
-                                                class="btn btn-consultarBig rounded-0 mt-3">Cambiar
-                                                contraseña</button>
+                                            <div class="col-12 col-lg-4 table-inverse">
+                                                <div class="border-bottom border-dark w-60">
+                                                    <label class="mediumf text-muted" for=" password3">Repetir
+                                                        Contraseña</label>
+                                                    <input class="bg-light input-clave" name="password3" type="password"
+                                                        placeholder="******">
+                                                    <img class="pl-4 pl-lg-4 ml-lg-2" src="Icons/Icon feather-eye.svg"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 table-inverse"><button
+                                                    class="btn btn-consultarBig rounded-0 mt-3">Cambiar
+                                                    contraseña</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
 
-                        <section class="bg-light rounded d-none d-sm-block mt-5">
-                            <div class="justify-content-around">
-                                <div class="pt-1 w-100">
-                                    <div
-                                        class="row d-flex flex-wrap align-items-baseline rounded justify-content-between px-4">
-                                        <div class="col-9">
-                                            <p class="text-green">¿Quieres cerrar tu sesión?
-                                            </p>
-                                        </div>
-                                        <div class="col-3 mt-3"><button
-                                                class="btn btn-danger px-5 rounded-0 w-100">Cerrar
-                                                sesión</button>
+                            <section class="bg-light rounded d-none d-sm-block mt-5">
+                                <div class="justify-content-around">
+                                    <div class="pt-1 w-100">
+                                        <div
+                                            class="row d-flex flex-wrap align-items-baseline rounded justify-content-between px-4">
+                                            <div class="col-9">
+                                                <p class="text-green">¿Quieres cerrar tu sesión?
+                                                </p>
+                                            </div>
+                                            <div class="col-3 mt-3"><button
+                                                    class="btn btn-danger px-5 rounded-0 w-100">Cerrar
+                                                    sesión</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
