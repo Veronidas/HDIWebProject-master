@@ -71,6 +71,14 @@ input {
     width: 90%;
 }
 
+#ramoSel{
+  width: 70% !important;
+  border: 1px solid #CECECE !important;
+}
+
+#fechaPropuestas {
+  width: 32%;
+}
 
 #ramo, #poliza, #cert {
     width: 30%;
@@ -473,6 +481,17 @@ span {
   }
   .up-box {
     height: initial;
+  }
+
+  .fechaPropuestas {
+    border: none;
+    border-bottom: 2px solid #EFEFEF;
+    width: 90%;
+  }
+
+  input .radioClass, label .radioClass {
+    width: 100%;
+    display: flex;
   }
   
 }

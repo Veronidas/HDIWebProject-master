@@ -14,9 +14,12 @@
 * [Vista 9 - Recepcionar el vehículo](https://veronidas.github.io/HDIWebProject-master/Recepcionar.html)DONE
 * [Vista 10 - Mi perfil de usuario](https://veronidas.github.io/HDIWebProject-master/Perfil.html) DONE
 * [Vista 11 - Preguntas frecuentes](https://veronidas.github.io/HDIWebProject-master/Preguntas.html)EN DESARROLLO
-* [Vista 11 - FIANZAS] EN DESARROLLO
-* [Vista 11 - FIANZAS] EN DESARROLLO
-* [Vista 11 - FIANZAS] EN DESARROLLO
+* [Vista 12 - Fianzas Busqueda](https://veronidas.github.io/HDIWebProject-master/Fianza-busqueda.html) EN DESARROLLO
+* [Vista 13 - Fianzas Busqueda Detalle](https://veronidas.github.io/HDIWebProject-master/Fianza-busqueda-detalle.html) EN DESARROLLO
+* [Vista 14 - Propuesta de fianzas](https://veronidas.github.io/HDIWebProject-master/Propuesta-fianza.html) EN DESARROLLO
+* [Vista 15 - Propuesta de fianzas detalle](https://veronidas.github.io/HDIWebProject-master/Propuesta-fianza-detalle.html) EN DESARROLLO
+* [Vista 16 - Propuesta de fianzas informacion](https://veronidas.github.io/HDIWebProject-master/Propuesta-fianza-informacion.html) EN DESARROLLO
+
 
 
 
