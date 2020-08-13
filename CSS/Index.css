@@ -76,8 +76,12 @@ input {
   border: 1px solid #CECECE !important;
 }
 
-#fechaPropuestas {
+#fechaPropuestas, .fechaPropuestas {
   width: 32%;
+}
+
+.fechaPropuestas2{
+ width: 10%;
 }
 
 #ramo, #poliza, #cert {
