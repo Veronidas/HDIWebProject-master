@@ -43,319 +43,383 @@
             <div class="col-12">
                 <div>
                     <div class="row p-0">
+
+
                         <!-- LEFT MENU -->
-                        <div class="col-12 px-0 d-flex justify-content-between d-lg-none">
+                        <div class="navbar col-12 px-0 pt-0 d-flex justify-content-between d-lg-none">
                             <div class="px-0"><img class="" src="Img/logo.jpg" alt="Logo de HDI" />
                             </div>
                             <div class="align-items-end">
                                 <button class="btn btn-light btnToggle">
-                                    <a class="navbar-toggler-icon"><i class="fas fa-bars"
-                                            style="color:#6C6F70; font-size:28px;"></i></a>
+                                    <a href="" data-target="#sidebar" data-toggle="collapse" class=" d-md-none"><i
+                                            class="fas fa-bars" style="color:#6C6F70; font-size:28px;"></i></a>
                                 </button>
                             </div>
                         </div>
-
-                        <div class="wrapper d-none d-lg-block col-2 p-0 border-right sidebar">
-                            <div class="flex-column flex-wrap" id="navbarSupportedContent">
-                                <ul class="nav flex-wrap flex-column pt-1 pr-0 mr-0">
-                                    <li class="nav-item py-4 pl-xl-5">
-                                        <a class="nav-link title2 text-dark bg-succeed pl-3"
-                                            href="#"><strong></strong>Inicio</strong></a>
-                                    </li>
-                                    <li class="nav-item pr-0 mr-0">
-                                        <a class="btnLogin text-light title pr-2 pr-lg-5" href="#"><span
-                                                class=" pl-xl-5">Denunciar
-                                                siniestro</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class=" nav flex-column pt-3 pl-xl-5 pr-0 mr-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Mis Seguros</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Mis pagos</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Fianzas</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Propuestas de fianzas</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Historial de siniestro</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Cheques disponibles</a>
-                                    </li>
-                                    <li class="nav-item  border-bottom pb-4">
-                                        <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
-                                    </li>
-                                    <li class="nav-item py-3"></li>
-                                    <a class="nav-link text-muted" href="#">Mi Perfil</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- END LEFT MENU -->
-
-
-                        <!-- HERO -->
-
-                        <div class="col-12 col-lg-10 p-0 order-2">
-                            <section class="container-fluid px-0">
-                                <div class="row mx-0 px-0">
-                                    <div class="header pl-4 col-lg-8 pl-5 pt-md-5 text-light">
-                                        <p class="text-left title2 pb-1 mb-0 pt-3 pt-lg-5">
-                                            Hola Alexander!
-                                        </p>
-                                        <p class="header-text pb-2">Actualmente tienes 1 avance en un siniestro, 0
-                                            cheques
-                                            disponibles
-                                        </p>
-                                    </div>
-                                    <div class="col-lg-4 d-flex align-items-end flex-column px-0">
-                                        <img class="img-fluid imgHeader" src="Img/Image 1.png"
-                                            alt="Imagen principal del sitio" />
-                                    </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 col-lg-2 collapse d-md-block pt-2 px-0 min-vh-100 border-right sticky-top bg-white"
+                                    id="sidebar">
+                                    <ul class="nav flex-wrap flex-column overflow-hidden pt-1 pr-0 mr-0">
+                                        <!-- <ul class="nav flex-wrap flex-column pt-1 pr-0 mr-0"> -->
+                                        <li class="nav-item py-4 pl-xl-5">
+                                            <a class="title2 text-dark bg-succeed pl-3"
+                                                href="#"><strong></strong>Inicio</strong></a>
+                                        </li>
+                                        <li class="nav-item pr-0 mr-0">
+                                            <a class="btnLogin text-light title pr-2 pr-lg-5" href="#"><span
+                                                    class=" pl-xl-5">Denunciar
+                                                    siniestro</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav flex-column pt-3 pl-xl-5 pr-0 mr-0 border-bottom">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Mis Seguros</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Mis pagos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Fianzas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Propuestas de fianzas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Historial de siniestro</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Cheques disponibles</a>
+                                        </li>
+                                        <li class="nav-item pb-4">
+                                            <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav flex-column pt-3 pl-xl-5 pr-0 mr-0">
+                                        <li class="nav-item py-3">
+                                            <a class="nav-link text-muted" href="#">Mi Perfil</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </section>
+
+                                <!-- END LEFT MENU -->
 
 
-                            <!-- END HERO -->
+                                <!-- HERO -->
 
-                            <!-- SECTIONS 1ST ROW -->
-                            <div class="container-fluid">
-                                <div class="row align-items-center justify-content-around px-lg-4">
-                                    <!-- SECTION - MIS PÓLIZAS -->
-                                    <section class="col-12 py-4 col-lg-6 py-lg-0">
-                                        <div class="card container border-secondary rounded-0 up-box">
-                                            <div class="row justify-content-center">
-                                                <div class="col-12 px-4 col-md-9 pt-1">
-                                                    <div class="card-body my-0 pl-0">
-                                                        <h5 class="card-title title">Mis Pólizas</h5>
-                                                        <p class="card-text"></p>
-                                                    </div>
-                                                    <div
-                                                        class="d-flex card-text justify-content-between pl-1 pb-3 border-bottom">
-                                                        <div>VEHÍCULOS MOTORIZADOS</div>
-                                                        <a href="#"><img src="Icons/Icon awesome-arrow-right.svg"
-                                                                alt=""></a>
-                                                    </div>
-                                                    <div
-                                                        class="d-flex card-text justify-content-between pl-1 py-3 border-bottom">
-                                                        <div>SOAP-ACCIDENTES PERSONALES</div>
-                                                        <a href="#"><img src="Icons/Icon awesome-arrow-right.svg"
-                                                                alt=""></a>
-                                                    </div>
-                                                    <div class="d-flex card-text justify-content-between pl-1 py-3">
-                                                        <div>VEHÍCULOS MOTORIZADOS HDI</div>
-                                                        <a href="#"><img src="Icons/Icon awesome-arrow-right.svg"
-                                                                alt=""></a>
-                                                    </div>
-                                                    <div class="card-body smallf text-center align">
-                                                        <a href="#" class="card-link text-dark">Ver detalles de
-                                                            todas mis
-                                                            polizas vigentes</a>
-                                                    </div>
-                                                </div>
+                                <div class="col-12 col-lg-10 p-0 order-2">
+                                    <section class="container-fluid px-0">
+                                        <div class="row mx-0 px-0">
+                                            <div class="header pl-4 col-lg-8 pl-5 pt-md-5 text-light">
+                                                <p class="text-left title2 pb-1 mb-0 pt-3 pt-lg-5">
+                                                    Hola Alexander!
+                                                </p>
+                                                <p class="header-text pb-2">Actualmente tienes 1 avance en un
+                                                    siniestro,
+                                                    0
+                                                    cheques
+                                                    disponibles
+                                                </p>
                                             </div>
-                                        </div>
-                                    </section>
-                                    <!-- END SECTION - MIS PÓLIZAS -->
-                                    <!-- SECTION - MIS PAGOS -->
-                                    <section class="col-12 py-4 col-lg-6">
-                                        <div class="card container border-secondary rounded-0 up-box">
-                                            <div class="justify-content-center">
-                                                <div class="card-body mt-3 px-3 pt-1">
-                                                    <div class="my-0 pl-0">
-                                                        <h5 class="card-title title">Mis Pagos</h5>
-                                                        <p class="card-text"></p>
-                                                    </div>
-                                                    <div
-                                                        class="row card-text align-items-baseline justify-content-between pl-1 pb-2 border-bottom">
-                                                        <div class="prueba col-12 col-lg-7">VEHÍCULOS MOTORIZADOS</div>
-                                                        <div class="mt-3 col-12 col-lg-5"><a
-                                                                class="btnPagado text-decoration-none text-light"
-                                                                href="#"><span>Pagado</span>
-                                                            </a></div>
-                                                    </div>
-                                                    <div
-                                                        class="row card-text align-items-baseline justify-content-between pl-1 pb-2 border-bottom">
-                                                        <div class="prueba col-12 col-lg-7">SOAP-ACCIDENTES PERSONALES
-                                                        </div>
-                                                        <div class="mt-3  col-12 col-lg-5"><a
-                                                                class="btnPagado text-decoration-none text-light"
-                                                                href="#"><span>Pagado</span>
-                                                            </a></div>
-                                                    </div>
-                                                    <div
-                                                        class="row card-text align-items-baseline justify-content-between pl-1 pb-3">
-                                                        <div class="prueba col-12 col-lg-7">VEHÍCULOS MOTORIZADOS HDI
-                                                        </div>
-                                                        <div class="mt-3  col-12 col-lg-5"><a
-                                                                class="btnPagado text-light"
-                                                                href="#"><span>Pagado</span>
-                                                            </a></div>
-                                                    </div>
 
-                                                    <div class="smallf text-center align mt-2">
-                                                        <a href="#" class="card-link text-dark">Ver detalles de
-                                                            todas mis
-                                                            polizas vigentes</a>
+
+                                            <!-- <div class="col-lg-4 d-flex align-items-end flex-column px-0">
+                                                <img class="img-fluid imgHeader" src="Img/Image 1.png"
+                                                    alt="Imagen principal del sitio" />
+                                            </div> -->
+
+                                            <div id="carouselExampleIndicators"
+                                                class="carousel slide col-lg-4 d-flex align-items-end flex-column px-0"
+                                                data-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to="0"
+                                                        class="active"></li>
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="Img/Image 1.png"
+                                                            alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="Img/Image 1.png"
+                                                            alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="Img/Image 1.png"
+                                                            alt="Third slide">
                                                     </div>
                                                 </div>
+                                                <a class="carousel-control-prev" href="#carouselExampleIndicators"
+                                                    role="button" data-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carouselExampleIndicators"
+                                                    role="button" data-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
                                             </div>
                                         </div>
                                     </section>
 
 
-                                </div>
+                                    <!-- END HERO -->
 
-                                <!-- END SECTION - MIS PAGOS -->
-                            </div>
-                            <!-- SECTIONS 2ND ROW -->
-
-                            <div class="container-fluid">
-                                <div class="row align-items-center justify-content-around px-lg-4">
-
-                                    <!-- SECTION - MI HISTORIAL DE SINIESTROS-->
-                                    <section class="col-12 py-4 col-lg-4">
-                                        <div class="card container border-secondary rounded-0 up-box">
-                                            <div class="justify-content-center">
-                                                <div class="pt-1">
-                                                    <form class=" card-body d-inline-block" action="#">
-                                                        <div class="my-0 pl-0">
-                                                            <h5 class="card-title title">Historial de
-                                                                siniestros</h5>
-                                                            <p class="card-text"></p>
+                                    <!-- SECTIONS 1ST ROW -->
+                                    <div class="container-fluid">
+                                        <div class="row align-items-center justify-content-around px-lg-4">
+                                            <!-- SECTION - MIS PÓLIZAS -->
+                                            <section class="col-12 py-4 col-lg-6 py-lg-0">
+                                                <div class="card container border-secondary rounded-0 up-box">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-12 px-4 col-md-9 pt-1">
+                                                            <div class="card-body my-0 pl-0">
+                                                                <h5 class="card-title title">Mis Pólizas</h5>
+                                                                <p class="card-text"></p>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex card-text justify-content-between pl-1 pb-3 border-bottom">
+                                                                <div>VEHÍCULOS MOTORIZADOS</div>
+                                                                <a href="#"><img
+                                                                        src="Icons/Icon awesome-arrow-right.svg"
+                                                                        alt=""></a>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex card-text justify-content-between pl-1 py-3 border-bottom">
+                                                                <div>SOAP-ACCIDENTES PERSONALES</div>
+                                                                <a href="#"><img
+                                                                        src="Icons/Icon awesome-arrow-right.svg"
+                                                                        alt=""></a>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex card-text justify-content-between pl-1 py-3">
+                                                                <div>VEHÍCULOS MOTORIZADOS HDI</div>
+                                                                <a href="#"><img
+                                                                        src="Icons/Icon awesome-arrow-right.svg"
+                                                                        alt=""></a>
+                                                            </div>
+                                                            <div class="card-body smallf text-center align">
+                                                                <a href="#" class="card-link text-dark">Ver detalles
+                                                                    de
+                                                                    todas mis
+                                                                    polizas vigentes</a>
+                                                            </div>
                                                         </div>
-                                                        <div class="row pt-0 justify-content-center">
-                                                            <div
-                                                                class="row card-text align-items-baseline pl-1 pl-lg-2 pb-3 justify-content-between">
-                                                                <div class="col-12 col-lg-5 prueba"><input type="text"
-                                                                        class="prueba4" placeholder="Patente">
-                                                                </div>
-                                                                <div class="col-12 col-lg-5 mt-3 pl-lg-4"><button
-                                                                        class="btn btn-sm px-4 py-2 btn-consultar rounded-0"
-                                                                        type="submit">Consultar</button>
-                                                                </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <!-- END SECTION - MIS PÓLIZAS -->
+                                            <!-- SECTION - MIS PAGOS -->
+                                            <section class="col-12 py-4 col-lg-6">
+                                                <div class="card container border-secondary rounded-0 up-box">
+                                                    <div class="justify-content-center">
+                                                        <div class="card-body mt-3 px-3 pt-1">
+                                                            <div class="my-0 pl-0">
+                                                                <h5 class="card-title title">Mis Pagos</h5>
+                                                                <p class="card-text"></p>
                                                             </div>
                                                             <div
-                                                                class="row card-text align-items-baseline pl-1 pl-lg-2 pb-3 justify-content-between">
-                                                                <div class="col-12 col-lg-5 prueba"><input type="text"
-                                                                        class="prueba4" placeholder="Siniestro">
+                                                                class="row card-text align-items-baseline justify-content-between pl-1 pb-2 border-bottom">
+                                                                <div class="prueba col-12 col-lg-7">VEHÍCULOS
+                                                                    MOTORIZADOS
                                                                 </div>
-                                                                <div class="col-12 col-lg-5 mt-3 pl-lg-4"><button
-                                                                        class="btn btn-sm px-4 py-2 btn-consultar rounded-0"
-                                                                        type="submit">Consultar</button>
-                                                                </div>
+                                                                <div class="mt-3 col-12 col-lg-5"><a
+                                                                        class="btnPagado text-decoration-none text-light"
+                                                                        href="#"><span>Pagado</span>
+                                                                    </a></div>
                                                             </div>
                                                             <div
-                                                                class="row card-text align-items-baseline pl-1 pl-lg-2 pb-2 justify-content-between">
-                                                                <div class="col-12 col-lg-7 prueba pr-0">
-                                                                    <div class="row prueba4 pl-3">
-                                                                        <span class="col-4 col-sm-4 col-xs-4 p-0"><input
-                                                                                class="input-historial" type="text"
-                                                                                placeholder="Ramo"></span>
-                                                                        <span class="col-4 col-sm-4 col-xs-4 p-0"><input
-                                                                                type="col-4 text"
-                                                                                placeholder="Póliza"></span>
-                                                                        <span class="col-4 col-sm-4 col-xs-4 p-0"><input
-                                                                                type="col-4 text"
-                                                                                placeholder="Certificado"></span>
+                                                                class="row card-text align-items-baseline justify-content-between pl-1 pb-2 border-bottom">
+                                                                <div class="prueba col-12 col-lg-7">SOAP-ACCIDENTES
+                                                                    PERSONALES
+                                                                </div>
+                                                                <div class="mt-3  col-12 col-lg-5"><a
+                                                                        class="btnPagado text-decoration-none text-light"
+                                                                        href="#"><span>Pagado</span>
+                                                                    </a></div>
+                                                            </div>
+                                                            <div
+                                                                class="row card-text align-items-baseline justify-content-between pl-1 pb-3">
+                                                                <div class="prueba col-12 col-lg-7">VEHÍCULOS
+                                                                    MOTORIZADOS
+                                                                    HDI
+                                                                </div>
+                                                                <div class="mt-3  col-12 col-lg-5"><a
+                                                                        class="btnPagado text-light"
+                                                                        href="#"><span>Pagado</span>
+                                                                    </a></div>
+                                                            </div>
+
+                                                            <div class="smallf text-center align mt-2">
+                                                                <a href="#" class="card-link text-dark">Ver detalles
+                                                                    de
+                                                                    todas mis
+                                                                    polizas vigentes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+
+                                        </div>
+
+                                        <!-- END SECTION - MIS PAGOS -->
+                                    </div>
+                                    <!-- SECTIONS 2ND ROW -->
+
+                                    <div class="container-fluid">
+                                        <div class="row align-items-center justify-content-around px-lg-4">
+
+                                            <!-- SECTION - MI HISTORIAL DE SINIESTROS-->
+                                            <section class="col-12 py-4 col-lg-4">
+                                                <div class="card container border-secondary rounded-0 up-box">
+                                                    <div class="justify-content-center">
+                                                        <div class="pt-1">
+                                                            <form class=" card-body d-inline-block" action="#">
+                                                                <div class="my-0 pl-0">
+                                                                    <h5 class="card-title title">Historial de
+                                                                        siniestros</h5>
+                                                                    <p class="card-text"></p>
+                                                                </div>
+                                                                <div class="row pt-0 justify-content-center">
+                                                                    <div
+                                                                        class="row card-text align-items-baseline pl-1 pl-lg-2 pb-3 justify-content-between">
+                                                                        <div class="col-12 col-lg-5"><input type="text"
+                                                                                class="prueba4" placeholder="Patente">
+                                                                        </div>
+
+                                                                        <div class="mt-3 col-12 col-lg-5 pl-lg-4">
+                                                                            <button
+                                                                                class="btn btn-sm px-4 py-2 btn-consultar rounded-0"
+                                                                                type="submit">Consultar</button>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="row card-text align-items-baseline pl-1 pl-lg-2 pb-3 justify-content-between">
+                                                                        <div class="col-12 col-lg-5"><input type="text"
+                                                                                class="prueba4" placeholder="Siniestro">
+                                                                        </div>
+                                                                        <div class="col-12 col-lg-5 mt-3 pl-lg-4">
+                                                                            <button
+                                                                                class="btn btn-sm px-4 py-2 btn-consultar rounded-0"
+                                                                                type="submit">Consultar</button>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="row card-text align-items-baseline pl-1 pl-lg-2 pb-2 justify-content-between">
+                                                                        <div class="col-12 col-lg-7 pr-0">
+                                                                            <div class="row prueba4 pl-3 pl-lg-0">
+                                                                                <span
+                                                                                    class="col-4 col-sm-4 col-xs-4 p-0"><input
+                                                                                        class="input-historial"
+                                                                                        type="text"
+                                                                                        placeholder="Ramo"></span>
+                                                                                <span
+                                                                                    class="col-4 col-sm-4 col-xs-4 p-0"><input
+                                                                                        type="col-4 text"
+                                                                                        placeholder="Póliza"></span>
+                                                                                <span
+                                                                                    class="col-4 col-sm-4 col-xs-4 p-0"><input
+                                                                                        type="col-4 text"
+                                                                                        placeholder="Certificado"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 col-lg-5 mt-3 pl-3 px-lg-4">
+                                                                            <button
+                                                                                class="btn btn-sm px-4 py-2 btn-consultar rounded-0"
+                                                                                type="submit">Consultar</button>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-12 col-lg-5 mt-3 pl-3 px-lg-4">
-                                                                    <button
-                                                                        class="btn btn-sm px-4 py-2 btn-consultar rounded-0"
-                                                                        type="submit">Consultar</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
 
-                                                    </form>
+                                                            </form>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- END SECTION - MI HISTORIAL DE SINIESTROS->
+                                            </section>
+                                            <!-- END SECTION - MI HISTORIAL DE SINIESTROS->
                                         
 
                                     <! -- SECTION - AVANCES DE SINIESTRO-->
-                                    <section class="col-12 py-4 col-lg-4">
-                                        <div class="card container border-secondary rounded-0 up-box">
-                                            <div class=" card-body row justify-content-center">
-                                                <div class="col-12 px-4 pt-1 ">
-                                                    <div class="my-0 pl-0">
-                                                        <h5 class="card-title title">Avances de siniestro</h5>
-                                                    </div>
-                                                    <form class="mt-5" action="#">
-                                                        <div
-                                                            class="form-group d-flex flex-wrap align-items-baseline justify-content-center pl-1">
+                                            <section class="col-12 py-4 col-lg-4">
+                                                <div class="card container border-secondary rounded-0 up-box">
+                                                    <div class=" card-body row justify-content-center">
+                                                        <div class="col-12 px-4 pt-1 ">
+                                                            <div class="my-0 pl-0">
+                                                                <h5 class="card-title title">Avances de siniestro
+                                                                </h5>
+                                                            </div>
+                                                            <form class="mt-5" action="#">
+                                                                <div
+                                                                    class="form-group d-flex flex-wrap align-items-baseline justify-content-center pl-1">
 
-                                                            <input type="text" class="text-center"
-                                                                placeholder="Número de siniestro" size="15">
+                                                                    <input type="text" class="text-center"
+                                                                        placeholder="Número de siniestro" size="15">
+                                                                </div>
+                                                                <div
+                                                                    class="smallf text-muted d-flex flex-wrap align-items-baseline justify-content-center pl-1 pt-0">
+                                                                    Ejemplo:
+                                                                    123456789
+                                                                </div>
+                                                                <div
+                                                                    class="mt-3 text-center d-flex flex-wrap card-text align-items-baseline justify-content-center pl-1 pb-3">
+                                                                    <button
+                                                                        class="btn btn-sm px-5 py-2 btn-consultar rounded-0"
+                                                                        type="submit">Consultar</button>
+                                                                </div>
+                                                            </form>
                                                         </div>
-                                                        <div
-                                                            class="smallf text-muted d-flex flex-wrap align-items-baseline justify-content-center pl-1 pt-0">
-                                                            Ejemplo:
-                                                            123456789
-                                                        </div>
-                                                        <div
-                                                            class="mt-3 text-center d-flex flex-wrap card-text align-items-baseline justify-content-center pl-1 pb-3">
-                                                            <button class="btn btn-sm px-5 py-2 btn-consultar rounded-0"
-                                                                type="submit">Consultar</button>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                    </section>
-
-                                    <!-- END SECTION - AVANCES DE SINIESTRO-->
-                                    <!-- SECTION - TIENES DUDAS?-->
-                                    <section class=" col-12 py-4 col-lg-4">
-                                        <div class="card container border-secondary rounded-0 up-box">
-                                            <div class="row justify-content-center">
-                                                <div class="col-12 px-4 col-md-9 pt-1">
-                                                    <div class="card-body my-0 pl-0">
-                                                        <h5 class="card-title title">¿Tienes dudas?
-                                                        </h5>
-                                                        <p class="card-text pt-4">
-                                                            Lorem ipsum dolor sit amet, consectetur
-                                                            ad CHAT ipiscing
-                                                            elit,
-                                                            sed
-                                                            do eiusmod tempor incididunt ut labore
-                                                        </p>
                                                     </div>
-                                                    <div
-                                                        class="d-flex flex-wrap card-text align-items-baseline justify-content-center pl-1 pb-3">
-                                                        <!-- <div class="mt-5"><a
+                                            </section>
+
+                                            <!-- END SECTION - AVANCES DE SINIESTRO-->
+                                            <!-- SECTION - TIENES DUDAS?-->
+                                            <section class=" col-12 py-4 col-lg-4">
+                                                <div class="card container border-secondary rounded-0 up-box">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-12 px-4 col-md-9 pt-1">
+                                                            <div class="card-body my-0 pl-0">
+                                                                <h5 class="card-title title">¿Tienes dudas?
+                                                                </h5>
+                                                                <p class="card-text pt-4">
+                                                                    Lorem ipsum dolor sit amet, consectetur
+                                                                    ad CHAT ipiscing
+                                                                    elit,
+                                                                    sed
+                                                                    do eiusmod tempor incididunt ut labore
+                                                                </p>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex flex-wrap card-text align-items-baseline justify-content-center pl-1 pb-3">
+                                                                <!-- <div class="mt-5"><a
                                                                 class="btnIngresar text-decoration-none text-light"
                                                                 href="#"><span class="px-5">Visitar FAQ</span>
                                                             </a></div> -->
-                                                        <div><button
-                                                                class="btn btn-sm px-5 py-2 btn-consultar rounded-0"
-                                                                type="submit">Preguntas frecuentes</button>
+                                                                <div><button
+                                                                        class="btn btn-sm px-5 py-2 btn-consultar rounded-0"
+                                                                        type="submit">Preguntas frecuentes</button>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </section>
+                                        </div>
+                                        <div class="container-fluid">
+                                            <div class="row align-items-center px-lg-3 pb-lg-4">
                                             </div>
                                         </div>
-                                    </section>
-                                </div>
-                                <div class="container-fluid">
-                                    <div class="row align-items-center px-lg-3 pb-lg-4">
+
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>

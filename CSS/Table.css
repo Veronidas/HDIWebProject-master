@@ -251,22 +251,48 @@
       top: 0;
     }
     table tbody tr td:nth-child(1):before {
-      content: "Date";
+      content: "Nro. de Cuota";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+
     }
     table tbody tr td:nth-child(2):before {
-      content: "Order ID";
+      content: "Medio de Pago";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
     }
+
     table tbody tr td:nth-child(3):before {
-      content: "Name";
+      content: "Nro. de Control de pago";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
     }
     table tbody tr td:nth-child(4):before {
-      content: "Price";
+      content: "Estado de pago";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
     }
     table tbody tr td:nth-child(5):before {
-      content: "Quantity";
+      content: "Fecha de Vcto.";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
     }
     table tbody tr td:nth-child(6):before {
-      content: "Total";
+      content: "Prima";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
     }
   
     .column4,
