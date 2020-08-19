@@ -187,34 +187,10 @@
     cursor: pointer;
   }
   
-  .column1 {
-    width: auto;
-    padding-left: 40px;
-  }
-  
-  .column2 {
+  .column1, .column2, .column3, .column4, .column5, .column6, .column7, .column8, .column9 {
     width: auto;
   }
-  
-  .column3 {
-    width: auto;
-  }
-  
-  .column4 {
-    width: auto;
-    text-align: left;
-  }
-  
-  .column5 {
-    width: auto;
-    text-align: right;
-  }
-  
-  .column6 {
-    width: auto;
-    text-align: right;
-    padding-right: 62px;
-  }
+
   
   
   @media screen and (max-width: 992px) {
@@ -232,7 +208,7 @@
       padding: 37px 0;
     }
     table tbody tr td {
-      padding-left: 40% !important;
+      padding-left: 55%;
       margin-bottom: 24px;
     }
     table tbody tr td:last-child {
@@ -247,12 +223,12 @@
       font-weight: unset;
       position: absolute;
 		/* Top/left values mimic padding */
-		  top: 6px;
-		  left: 6px;
+		  left: 8px;
 		  width: 45%; 
 		  padding-right: 10px; 
 		  white-space: nowrap;
     }
+
     table tbody tr td:nth-child(1):before {
       content: "Nro. de Cuota";
       width: 20%;
@@ -293,6 +269,27 @@
     table tbody tr td:nth-child(6):before {
       content: "Prima";
       width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    table tbody tr td:nth-child(7):before {
+      content: "Fecha de pago";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    table tbody tr td:nth-child(8):before {
+      content: "Forma de pago";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    table tbody tr td:nth-child(9):before {
+      content: "Observaciones";
+      width: 1  0%;
       height: 100%;
       position: absolute;
       text-align: left;
