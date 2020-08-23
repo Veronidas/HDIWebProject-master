@@ -149,10 +149,10 @@
     border: 0;
   }
   table td, table th {
-    text-align: left;
+    text-align: center;
   }
   table td.l, table th.l {
-    text-align: right;
+    text-align: center;
   }
   table td.c, table th.c {
     text-align: center;
@@ -194,6 +194,18 @@
   
   
   @media screen and (max-width: 992px) {
+    .verticalTable > * {
+      text-align: center;
+    }
+    .verticalTable tbody tr {
+      padding: 15px 0;
+      text-align: center;
+      height: auto;
+    }
+    .verticalTable tbody tr td, .verticalTable tbody tr th {
+      padding-left: 0;
+      text-align: center;
+    }
     table {
       display: block;
     }
@@ -229,7 +241,111 @@
 		  white-space: nowrap;
     }
 
-    table tbody tr td:nth-child(1):before {
+/* RESPONSIVE TITLES MIS SEGUROS / TABLE 1 */
+
+    .tablePolizasVigentes td:nth-child(1):before {
+      content: "Ramo";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+
+    }
+    .tablePolizasVigentes td:nth-child(2):before {
+      content: "Sucursal";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+
+    .tablePolizasVigentes td:nth-child(3):before {
+      content: "Nro. de Documento";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    .tablePolizasVigentes td:nth-child(4):before {
+      content: "Ítem";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    .tablePolizasVigentes td:nth-child(5):before {
+      content: "Tipo de documento";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    .tablePolizasVigentes td:nth-child(6):before {
+      content: "Vigencia inicial";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    .tablePolizasVigentes td:nth-child(7):before {
+      content: "Vigencia final";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    .tablePolizasVigentes td:nth-child(8):before {
+      content: "Cuotas";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    /* END RESPONSIVE TITLES MIS SEGUROS / TABLE 1 */
+
+    /* RESPONSIVE TITLES MIS PAGOS / TABLE 1 */
+    .tableMisPagos td:nth-child(1):before {
+      content: "Ramo-Póliza-ítem";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+
+    }
+    .tableMisPagos td:nth-child(2):before {
+      content: "Fecha Inicio Vigencia";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+
+    .tableMisPagos td:nth-child(3):before {
+      content: "Fecha Fin Vigencia";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    .tableMisPagos td:nth-child(4):before {
+      content: "Rol";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    .tableMisPagos td:nth-child(5):before {
+      content: "Acción";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      text-align: left;
+    }
+    /* END RESPONSIVE TITLES MIS PAGOS / TABLE 1 */
+
+
+    /* RESPONSIVE TITLES MIS PAGOS / TABLE 2 */
+    .tableCuotasDePoliza td:nth-child(1):before {
       content: "Nro. de Cuota";
       width: 20%;
       height: 100%;
@@ -237,7 +353,7 @@
       text-align: left;
 
     }
-    table tbody tr td:nth-child(2):before {
+    .tableCuotasDePoliza td:nth-child(2):before {
       content: "Medio de Pago";
       width: 20%;
       height: 100%;
@@ -245,74 +361,404 @@
       text-align: left;
     }
 
-    table tbody tr td:nth-child(3):before {
+    .tableCuotasDePoliza td:nth-child(3):before {
       content: "Nro. de Control de pago";
       width: 20%;
       height: 100%;
       position: absolute;
       text-align: left;
     }
-    table tbody tr td:nth-child(4):before {
+    .tableCuotasDePoliza td:nth-child(4):before {
       content: "Estado de pago";
       width: 20%;
       height: 100%;
       position: absolute;
       text-align: left;
     }
-    table tbody tr td:nth-child(5):before {
+    .tableCuotasDePoliza td:nth-child(5):before {
       content: "Fecha de Vcto.";
       width: 20%;
       height: 100%;
       position: absolute;
       text-align: left;
     }
-    table tbody tr td:nth-child(6):before {
+    .tableCuotasDePoliza td:nth-child(6):before {
       content: "Prima";
       width: 20%;
       height: 100%;
       position: absolute;
       text-align: left;
     }
-    table tbody tr td:nth-child(7):before {
+    .tableCuotasDePoliza td:nth-child(7):before {
       content: "Fecha de pago";
       width: 20%;
       height: 100%;
       position: absolute;
       text-align: left;
     }
-    table tbody tr td:nth-child(8):before {
+    .tableCuotasDePoliza td:nth-child(8):before {
       content: "Forma de pago";
       width: 20%;
       height: 100%;
       position: absolute;
       text-align: left;
     }
-    table tbody tr td:nth-child(9):before {
+    .tableCuotasDePoliza td:nth-child(9):before {
       content: "Observaciones";
       width: 1  0%;
       height: 100%;
       position: absolute;
       text-align: left;
     }
-  
-    .column4,
-    .column5,
-    .column6 {
+/* END RESPONSIVE TITLES MIS PAGOS / TABLE 2 */
+/* RESPONSIVE TITLES FIANZA-BUSQUEDA-DETALLE / TABLE 1 */
+
+.tableFianzasBusqueda td:nth-child(1):before {
+  content: "Ramo";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableFianzasBusqueda td:nth-child(2):before {
+  content: "Nro. documento";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableFianzasBusqueda td:nth-child(3):before {
+  content: "RUT funcionario";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableFianzasBusqueda td:nth-child(4):before {
+  content: "Funcionario";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableFianzasBusqueda td:nth-child(5):before {
+  content: "Vig. inicial";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableFianzasBusqueda td:nth-child(6):before {
+  content: "Vig. final";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/* END RESPONSIVE TITLES FIANZA-BUSQUEDA-DETALLE / TABLE 1 */
+
+
+/* RESPONSIVE TITLES POLIZA-FIANZA-DETALLE / TABLE 1 */
+
+.tablePolizaDetalle td:nth-child(1):before {
+  content: "Ramo";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tablePolizaDetalle td:nth-child(2):before {
+  content: "Nro. Propuesta";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tablePolizaDetalle td:nth-child(3):before {
+  content: "Nro. documento";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tablePolizaDetalle td:nth-child(4):before {
+  content: " Rut Funcionario";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tablePolizaDetalle td:nth-child(5):before {
+  content: "Funcionario";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tablePolizaDetalle td:nth-child(6):before {
+  content: "Fecha emisión";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tablePolizaDetalle td:nth-child(7):before {
+  content: "PDF";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/* END RESPONSIVE TITLES POLIZA-FIANZA-DETALLE / TABLE 1 */
+
+/* RESPONSIVE TITLES PROPUESTA FIANZA / TABLE 1 */
+
+.tablePropuestaFianza td:nth-child(1):before {
+  content: "Ramo";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tablePropuestaFianza td:nth-child(2):before {
+  content: "Nro. Propuesta";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tablePropuestaFianza td:nth-child(3):before {
+  content: "Nro. de Documento";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tablePropuestaFianza td:nth-child(4):before {
+  content: "Rut Funcionario";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tablePropuestaFianza td:nth-child(5):before {
+  content: "Funcionario";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tablePropuestaFianza td:nth-child(6):before {
+  content: "Fecha Emisión";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tablePropuestaFianza td:nth-child(7):before {
+  content: "Estado";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tablePropuestaFianza td:nth-child(8):before {
+  content: "PDF";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/* END RESPONSIVE TITLES PROPUESTA FIANZA / TABLE 1 */
+/* RESPONSIVE TITLES SINIESTROS-DETALLE / TABLE 1 */
+
+.siniestrosDetalle td:nth-child(1):before {
+  content: "Tipo de documento";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.siniestrosDetalle td:nth-child(2):before {
+  content: "Documento";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.siniestrosDetalle td:nth-child(3):before {
+  content: "Fecha de creación";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/* END RESPONSIVE TITLES SINIESTROS-DETALLE / TABLE 1 */
+
+
+/* RESPONSIVE TITLES SINIESTROS-DETALLE-2 / TABLE 1 */
+
+.siniestrosDetalle2 td:nth-child(1):before {
+  content: "Evento";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.siniestrosDetalle2 td:nth-child(2):before {
+  content: "Nombre";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.siniestrosDetalle2 td:nth-child(3):before {
+  content: "Tipo";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.siniestrosDetalle2 td:nth-child(4):before {
+  content: "Fecha de evento";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.siniestrosDetalle2 td:nth-child(5):before {
+  content: "Fecha realizada";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.siniestrosDetalle2 td:nth-child(6):before {
+  content: "Observación";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/* END RESPONSIVE TITLES SINIESTROS-DETALLE-2 / TABLE 1 */
+
+/* RESPONSIVE TITLES MIS-SEGUROS-DETALLE / TABLE 5 */
+
+.tableCoberturas td:nth-child(1):before {
+  content: "Coberturas";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableCoberturas td:nth-child(2):before {
+  content: "Monto Asegurado";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableCoberturas td:nth-child(3):before {
+  content: "Tasa (%)";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableCoberturas td:nth-child(4):before {
+  content: "Prima Neta";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableCoberturas td:nth-child(5):before {
+  content: "Comisión (%)";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+/* END RESPONSIVE TITLES MIS-SEGUROS-DETALLE / TABLE 5 */
+
+/* RESPONSIVE TITLES MIS-SEGUROS-DETALLE / TABLE 6 */
+
+.tableValores td:nth-child(1):before {
+  content: "Descuentos";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableValores td:nth-child(2):before {
+  content: "Recargos";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableValores td:nth-child(3):before {
+  content: "Prima Afecta";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableValores td:nth-child(4):before {
+  content: "Prima Exenta";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableValores td:nth-child(5):before {
+  content: "IVA";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableValores td:nth-child(6):before {
+  content: "Prima Total";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+/* END RESPONSIVE TITLES MIS-SEGUROS-DETALLE / TABLE 6*/
+
+    tbody tr {
+      font-size: 12px;
+    }
+
+    table td, table th {
       text-align: left;
     }
-  
-    .column4,
-    .column5,
-    .column6,
-    .column1,
-    .column2,
-    .column3 {
-      width: 100%;
+    table td.l, table th.l {
+      text-align: right;
     }
-  
-    tbody tr {
-      font-size: 14px;
+    table td.c, table th.c {
+      text-align: center;
     }
+    table td.r, table th.r {
+      text-align: center;
+    }
+
   }
   
   @media (max-width: 576px) {

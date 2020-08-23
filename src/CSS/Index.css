@@ -75,7 +75,10 @@ input {
     width: 90%;
 }
 
-#ramoSel{
+.input-border{
+  border: 1px solid #CECECE !important;
+}
+#ramoSel, {
   width: 70% !important;
   border: 1px solid #CECECE !important;
 }

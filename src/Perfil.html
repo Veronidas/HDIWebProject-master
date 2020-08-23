@@ -5,11 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HDI - Clientes</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/Index.css">
     <script src="https://kit.fontawesome.com/74fbde4dd4.js" crossorigin="anonymous"></script>
@@ -118,83 +114,110 @@
                                                     <div class="col-12 col-lg-6 d-flex flex-column">
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text" placeholder="Nombre">
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="nombre">Nombre</label><input name="nombre"
+                                                                    type="text" placeholder="Nombre">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text"
-                                                                    placeholder="Apellido">
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="apellido">Apellido</label><input
+                                                                    name="apellido" type="text" placeholder="Apellido">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text"
-                                                                    placeholder="Tipo de persona">
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="tipoPersona">Tipo de persona</label><input
+                                                                    name="tipoPersona" type="text"
+                                                                    placeholder="Natural">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text" placeholder="RUT">
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="rut">Rut (Rol único tributario) </label><input
+                                                                    name="rut" type="text" placeholder="Natural">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text"
-                                                                    placeholder="Fecha de Nacimiento">
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="fechaNac">F/Nacimiento</label><input
+                                                                    name="fechaNac" type="text" placeholder="Campo">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text" placeholder="Giro">
+                                                            <div class="prueba"><label
+                                                                    class="text-secondary smallf pr-5"
+                                                                    for="giro">Giro</label><input name="giro"
+                                                                    type="text" placeholder="Campo">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text" placeholder="Región">
+                                                            <div class="prueba"><label
+                                                                    class="text-secondary smallf pr-5"
+                                                                    for="region">Región</label><input name="region"
+                                                                    type="text" placeholder="Metropolitana">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-lg-6 d-flex flex-column">
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text" placeholder="Comuna">
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="comuna">Comuna</label><input name="comuna"
+                                                                    type="text" placeholder="La Florida">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text"
-                                                                    placeholder="Dirección">
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="dir">Dirección</label><input name="dir"
+                                                                    type="text" placeholder="Calle Pasaje Número">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text"
-                                                                    placeholder="Email oficina">
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="emailOf">Email oficina</label><input
+                                                                    name="emailOf" type="text"
+                                                                    placeholder="asegurado@hdi.com">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text"
-                                                                    placeholder="Email particular">
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="emailPar">Email particular</label><input
+                                                                    name="emailPar" type="text"
+                                                                    placeholder="asegurado@hdi.com">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text"
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="telOf">Teléfono oficina</label><input
+                                                                    name="telOf" type="text"
                                                                     placeholder="Teléfono oficina">
                                                             </div>
                                                         </div>
                                                         <div class=" d-flex flex-wrap card-text align-items-baseline
                                                         justify-content-between pb-5">
-                                                            <div class="prueba"><input type="text"
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="telPar">Teléfono particular</label><input
+                                                                    name="telPar" type="text"
                                                                     placeholder="Teléfono particular">
                                                             </div>
                                                         </div>
                                                         <div
                                                             class="d-flex flex-wrap card-text align-items-baseline justify-content-between  pb-5">
-                                                            <div class="prueba"><input type="text"
-                                                                    placeholder="Email de facturación">
+                                                            <div class="prueba"><label class="text-secondary smallf"
+                                                                    for="emailFac">Email de facturación</label><input
+                                                                    name="emailFac" type="text"
+                                                                    placeholder="asegurado@hdi.com">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -270,3 +293,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- DEPENDENCIES -->
+    <!-- JQuery first, then Popper, then Bootstrap JS -->
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/popper.js/dist/popper.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>

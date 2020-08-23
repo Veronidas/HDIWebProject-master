@@ -5,14 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HDI - Clientes</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/Index.css">
-    <link rel="stylesheet" href="CSS/Table.css">
     <script src="https://kit.fontawesome.com/74fbde4dd4.js" crossorigin="anonymous"></script>
 </head>
 
@@ -44,7 +39,6 @@
             <div class="col-12">
                 <div>
                     <div class="row p-0">
-
 
                         <!-- LEFT MENU -->
                         <div class="navbar col-12 px-0 pt-0 d-flex justify-content-between d-lg-none">
@@ -109,82 +103,50 @@
 
                                 <!-- END LEFT MENU -->
 
-                                <div class="col-12 col-lg-10 pb-5">
+                                <!-- MAIN -->
+                                <div class="col-12 col-lg-10 p-0 px-lg-3">
 
                                     <!-- CONTENT -->
 
-                                    <div class="row">
-
+                                    <section class="px-3 px-lg-0">
                                         <div
-                                            class="d-none d-lg-flex flex-wrap card-tex justify-content-between pl-3 pt-5 ">
-                                            <div
-                                                class="d-none d-lg-flex flex-row card-tex justify-content-between pl-5 pt-0 pb-0">
-                                                <div>
-                                                    <h5 class="pb-2">Fianzas - 11.000.000 Servicio de Registro Civil e
-                                                        Identificación</h5>
-                                                    <h5>Tipo de búsqueda: Rut funcionario</h5>
+                                            class="d-lg-flex flex-wrap card-tex justify-content-between pl-3 pl-lg-5 pt-3 pt-lg-5">
+                                            <div>
+                                                <h5> Emisión de Propuestas de Fianza</h5>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="row mx-2 mx-lg-5 my-4 py-4 border border-success justify-content-start">
+                                            <div class="col-12 col-lg-7 pl-5">
+                                                <div class="col-12 col-lg-5 pl-lg-5 card-text text-green pb-3 pt-3">
+                                                    41 F. F. VALORES FISCALES
+                                                </div>
+                                                <div class="col-12 col-lg-5 pl-lg-5 card-text text-green pb-3">
+                                                    43 F. FUNCIONARIA CONDUCTORES
+                                                </div>
+                                                <div class="col-12 col-lg-5 pl-lg-5 card-text text-green pb-3">
+                                                    <img class="pr-3" src="Icons/Icon metro-file-pdf.svg" alt="">
+                                                    INSTRUCTIVO ON-LINE
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- mobile version -->
-                                        <div
-                                            class="d-flex px-4 flex-wrap card-tex justify-content-between pl-lg-3 pt-lg-5 d-lg-none">
-                                            <div class="mediumf">
-                                                <div>
-                                                    <h5 class="pb-4">Fianzas - 11.000.000 Servicio de Registro Civil e
-                                                        Identificación</h5>
-                                                    <h5>Tipo de búsqueda: Rut funcionario</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- end mobile version -->
-
-                                        <section class="col-12 py-5 h-100">
-                                            <div class="card container border-secondary rounded-0">
-                                                <div class="row justify-content-center">
-                                                    <div class="col-12 col-md-12 pt-3 pb-4">
-                                                        <table>
-                                                            <thead>
-                                                                <tr class="table100-head">
-                                                                    <th class="column1">Ramo</th>
-                                                                    <th class="column2">Nro. documento</th>
-                                                                    <th class="column3">RUT funcionario</th>
-                                                                    <th class="column4">Funcionario</th>
-                                                                    <th class="column5">Vig. inicial</th>
-                                                                    <th class="column6">Vig. final</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="column1">1
-                                                                    </td>
-                                                                    <td class="column2">000</td>
-                                                                    <td class="column3">00 000 000 - 0
-                                                                    </td>
-                                                                    <td class="column4">
-                                                                        Ejemplo</td>
-                                                                    <td class="column5">10-10-2020
-                                                                    </td>
-                                                                    <td class="column6">10-10-2020
-                                                                    </td>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    </div>
-
-                                    <!-- MAIN -->
-
-
+                                    </section>
 
                                     <!-- END MAIN -->
-
 
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- DEPENDENCIES -->
+    <!-- JQuery first, then Popper, then Bootstrap JS -->
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/popper.js/dist/popper.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>

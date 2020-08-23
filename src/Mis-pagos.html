@@ -4,16 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pólizas HDI</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>HDI - Clientes</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/Index.css">
     <link rel="stylesheet" href="CSS/Table.css">
-
     <script src="https://kit.fontawesome.com/74fbde4dd4.js" crossorigin="anonymous"></script>
 </head>
 
@@ -117,9 +112,9 @@
                                     <div class="row justify-content-around m-0">
                                         <div class="col-11 px-4 pt-1">
                                             <div
-                                                class="d-flex px-4 flex-wrap card-tex justify-content-between pl-lg-3 pt-lg-2">
-                                                <div class="d-none d-lg-flex">
-                                                    <h5>Pólizas vigentes</h5>
+                                                class="d-flex flex-wrap card-tex justify-content-between pl-lg-3 pt-lg-2">
+                                                <div class="d-lg-flex">
+                                                    <h5>Estado de pago de pólizas vigentes</h5>
                                                 </div>
                                                 <div class="mt-3 d-none"><button
                                                         class="btn btn-sm px-5 py-2 btn-consultar rounded-0">Descargar
@@ -133,51 +128,37 @@
                                         <div class="container-table100">
                                             <div class="wrap-table100">
                                                 <div class="table100 border border-success">
-                                                    <table>
+                                                    <table class="tableMisPagos">
                                                         <thead>
                                                             <tr class="table100-head">
-                                                                <th class="column1">Ramo</th>
-                                                                <th class="column2">Sucursal</th>
-                                                                <th class="column3">Nro. de Documento</th>
-                                                                <th class="column4">Ítem</th>
-                                                                <th class="column5">Tipo de documento</th>
-                                                                <th class="column6">Vigencia inicial </th>
-                                                                <th class="column7">Vigencia final</th>
-                                                                <th class="column8">Cuotas</th>
+                                                                <th class="column1">Ramo-Póliza-ítem</th>
+                                                                <th class="column2">Fecha Inicio Vigencia</th>
+                                                                <th class="column3">Fecha Fin Vigencia</th>
+                                                                <th class="column4">Rol</th>
+                                                                <th class="column5">Acción</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td class="column1"> VEHICULOS MOTORIZADOS</td>
-                                                                <td class="column2">HDI.CL</td>
-                                                                <td class="column3">000000</td>
-                                                                <td class="column4">0</td>
-                                                                <td class="column5">Emisión</td>
-                                                                <td class="column6">10-02-2020</td>
-                                                                <td class="column7">10-02-2020</td>
-                                                                <td class="column7">Ver cuotas</td>
+                                                                <td class="column1"> 74-386405-0 </td>
+                                                                <td class="column2">08-04-2020 </td>
+                                                                <td class="column3">08-04-2021</td>
+                                                                <td class="column4">CONTRATANTE</td>
+                                                                <td class="column5">Ver Cuotas</td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="column1"> VEHICULOS MOTORIZADOS</td>
-                                                                <td class="column2">HDI.CL</td>
-                                                                <td class="column3">000000</td>
-                                                                <td class="column4">0</td>
-                                                                <td class="column5">Emisión</td>
-                                                                <td class="column6">10-02-2020</td>
-                                                                <td class="column7">10-02-2020</td>
-                                                                <td class="column7">Ver cuotas</td>
-
+                                                                <td class="column1"> 74-386405-0 </td>
+                                                                <td class="column2">08-04-2020 </td>
+                                                                <td class="column3">08-04-2021</td>
+                                                                <td class="column4">CONTRATANTE</td>
+                                                                <td class="column5">Ver Cuotas</td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="column1"> VEHICULOS MOTORIZADOS</td>
-                                                                <td class="column2">HDI.CL</td>
-                                                                <td class="column3">000000</td>
-                                                                <td class="column4">0</td>
-                                                                <td class="column5">Emisión</td>
-                                                                <td class="column6">10-02-2020</td>
-                                                                <td class="column7">10-02-2020</td>
-                                                                <td class="column7">Ver cuotas</td>
-
+                                                                <td class="column1"> 74-386405-0 </td>
+                                                                <td class="column2">08-04-2020 </td>
+                                                                <td class="column3">08-04-2021</td>
+                                                                <td class="column4">CONTRATANTE</td>
+                                                                <td class="column5">Ver Cuotas</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -214,7 +195,7 @@
 
                                             <div class="wrap-table100">
                                                 <div class="table100 border border-secondary">
-                                                    <table>
+                                                    <table class="tableCuotasDePoliza">
                                                         <thead>
                                                             <tr class="table100-head text">
                                                                 <th class="column1">Nro. de Cuota</th>
@@ -368,3 +349,13 @@
 
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- DEPENDENCIES -->
+    <!-- JQuery first, then Popper, then Bootstrap JS -->
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/popper.js/dist/popper.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
