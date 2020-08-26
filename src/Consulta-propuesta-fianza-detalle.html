@@ -39,217 +39,235 @@
             <div class="col-12">
                 <div>
                     <div class="row p-0">
+
+
                         <!-- LEFT MENU -->
-                        <div class="col-12 px-0 d-flex justify-content-between d-lg-none">
+                        <div class="navbar col-12 px-0 pt-0 d-flex justify-content-between d-lg-none">
                             <div class="px-0"><img class="" src="Img/logo.jpg" alt="Logo de HDI" />
                             </div>
                             <div class="align-items-end">
                                 <button class="btn btn-light btnToggle">
-                                    <a class="navbar-toggler-icon"><i class="fas fa-bars"
-                                            style="color:#6C6F70; font-size:28px;"></i></a>
+                                    <a href="" data-target="#sidebar" data-toggle="collapse" class=" d-md-none"><i
+                                            class="fas fa-bars" style="color:#6C6F70; font-size:28px;"></i></a>
                                 </button>
                             </div>
                         </div>
-
-                        <div class="wrapper d-none d-lg-block col-2 p-0 border-right sidebar">
-                            <div class="flex-column flex-wrap" id="navbarSupportedContent">
-                                <ul class="nav flex-wrap flex-column pt-1 pr-0 mr-0">
-                                    <li class="nav-item py-4 pl-xl-5">
-                                        <a class="nav-link title2 text-dark bg-succeed pl-3"
-                                            href="#"><strong></strong>Inicio</strong></a>
-                                    </li>
-                                    <li class="nav-item pr-0 mr-0">
-                                        <a class="btnLogin text-light title pr-2 pr-lg-5" href="#"><span
-                                                class=" pl-xl-5">Denunciar
-                                                siniestro</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class=" nav flex-column pt-3 pl-xl-5 pr-0 mr-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Mis Seguros</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Mis pagos</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Fianzas</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Propuestas de fianzas</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Historial de siniestro</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-muted" href="#">Cheques disponibles</a>
-                                    </li>
-                                    <li class="nav-item  border-bottom pb-4">
-                                        <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
-                                    </li>
-                                    <li class="nav-item py-3"></li>
-                                    <a class="nav-link text-muted" href="#">Mi Perfil</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- END LEFT MENU -->
-
-                        <div class="col-11 col-lg-9 ml-2 ml-lg-5 ">
-                            <section>
-                                <div class="row ml-1">
-                                    <div class="col-12 col-lg-8">
-                                        <div class="d-flex flex-wrap card-tex justify-content-between mt-lg-5 ml-3">
-                                            <p>Fianzas - F. F. VALORES FISCALES</p>
-                                        </div>
-                                        <div
-                                            class="d-flex flex-wrap card-text justify-content-between mt-4 mt-lg-5 mb-lg-4 ml-3">
-                                            ANTECEDENTES GENERALES
-                                        </div>
-                                        <div class="row d-flex flex-wrap ml-1">
-                                            <div class="col-12 col-lg-6 d-flex flex-column">
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-4">
-                                                    <div class="prueba">
-
-                                                        <label class="text-secondary pr-1" for="ramo">Moneda</label>
-                                                        <select class="text-secondary ml-2" id="ramoSel" name="ramo">
-                                                            <option value="" disabled selected hidden>
-                                                                Seleccionar</option>
-                                                            <option value="1">Opcion 1</option>
-                                                            <option value="2">Opcion 2</option>
-                                                            <option value="3">Opcion 3</option>
-                                                        </select>
-
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-4">
-                                                    <div class="prueba">
-                                                        INSTITUCION O EMPRESA A LA QUE PERTENECE
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-3">
-                                                    <div class="col-8 col-lg-6 pl-0">
-                                                        <input type="text" placeholder="00.000.000">
-                                                    </div>
-                                                    <div class="col-4 col-lg-6 pl-0">
-                                                        <label class="text-secondary pr-lg-1" for="rutID">-</label>
-                                                        <input class="fechaPropuestas2 w-50" name="rutID" type="text"
-                                                            placeholder="0">
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-3">
-                                                    <div class="prueba"><input type="text" placeholder="Dirección">
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-4">
-                                                    <div class="prueba"><input type="text" placeholder="Comuna">
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-4">
-                                                    <div class="prueba">
-                                                        UNIDAD REPARTICION AGENCIA, OF. ZONAL.
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-4">
-                                                    <div class="prueba pt-1"><input type="text" placeholder="Nombre">
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-3">
-                                                    <div class="prueba">
-                                                        <label class="text-secondary pr-1" for="ramo">Región</label>
-                                                        <select class="text-secondary ml-2" id="ramoSel" name="ramo">
-                                                            <option value="" disabled selected hidden>
-                                                                Seleccionar</option>
-                                                            <option value="1">Opcion 1</option>
-                                                            <option value="2">Opcion 2</option>
-                                                            <option value="3">Opcion 3</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class=" d-flex flex-wrap card-text align-items-baseline
-                                                        justify-content-between pb-5">
-                                                    <div class="prueba">
-                                                        <label class="text-secondary pr-1" for="ramo">Teléfono</label>
-                                                        <select class="text-secondary" id="ramoSel" name="ramo">
-                                                            <option value="" disabled selected hidden>
-                                                                Seleccionar</option>
-                                                            <option value="1">Opcion 1</option>
-                                                            <option value="2">Opcion 2</option>
-                                                            <option value="3">Opcion 3</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- 2nd row -->
-                                            <div class="col-12 col-lg-6 d-flex flex-column">
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                    <div class="prueba"><input type="text"
-                                                            placeholder="Código corredor">
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between py-4">
-                                                    <div class="prueba"><input type="text" placeholder="Nombre">
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-3">
-                                                    <div class="prueba"><input type="text" placeholder="Región">
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
-                                                    <div class="prueba"><input type="text" placeholder="Teléfono">
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="d-flex flex-wrap card-text align-items-baseline justify-content-between py-4">
-                                                    <div class="prueba"><input type="text" placeholder="Dirección">
-                                                    </div>
-                                                </div>
-                                                <div class=" d-flex flex-wrap card-text align-items-baseline
-                                                        justify-content-between pb-5">
-                                                    <div class="prueba">
-                                                        <label class="text-secondary pr-1" for="ramo">Ubic.
-                                                            Geo</label>
-                                                        <select class="text-secondary" id="ramoSel" name="ramo">
-                                                            <option value="" disabled selected hidden>
-                                                                Seleccionar</option>
-                                                            <option value="1">Opcion 1</option>
-                                                            <option value="2">Opcion 2</option>
-                                                            <option value="3">Opcion 3</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 col-lg-2 collapse d-md-block pt-2 px-0 min-vh-100 border-right sticky-top bg-white"
+                                    id="sidebar">
+                                    <ul class="nav flex-wrap flex-column overflow-hidden pt-1 pr-0 mr-0">
+                                        <!-- <ul class="nav flex-wrap flex-column pt-1 pr-0 mr-0"> -->
+                                        <li class="nav-item py-4 pl-xl-5">
+                                            <a class="title2 text-dark bg-succeed pl-3"
+                                                href="#"><strong></strong>Inicio</strong></a>
+                                        </li>
+                                        <li class="nav-item pr-0 mr-0">
+                                            <a class="btnLogin text-light title pr-2 pr-lg-5" href="#"><span
+                                                    class=" pl-xl-5">Denunciar
+                                                    siniestro</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav flex-column pt-3 pl-xl-5 pr-0 mr-0 border-bottom">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Mis Seguros</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Mis pagos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Fianzas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Propuestas de fianzas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Historial de siniestro</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Facturas electrónicas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-muted" href="#">Cheques disponibles</a>
+                                        </li>
+                                        <li class="nav-item pb-4">
+                                            <a class="nav-link text-muted" href="#">Recepcionar vehículo</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav flex-column pt-3 pl-xl-5 pr-0 mr-0">
+                                        <li class="nav-item py-3">
+                                            <a class="nav-link text-muted" href="#">Mi Perfil</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </section>
+
+                                <!-- END LEFT MENU -->
+
+
+                                <div class="col-11 col-lg-10">
+                                    <section>
+                                        <div class="row ml-1">
+                                            <div class="col-12 col-lg-8">
+                                                <div
+                                                    class="d-flex flex-wrap card-tex justify-content-between mt-lg-5 ml-3">
+                                                    <p>Fianzas - F. F. VALORES FISCALES</p>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-wrap card-text justify-content-between mt-4 mt-lg-5 mb-lg-4 ml-3">
+                                                    ANTECEDENTES GENERALES
+                                                </div>
+                                                <div class="row d-flex flex-wrap ml-1">
+                                                    <div class="col-12 col-lg-6 d-flex flex-column">
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-4">
+                                                            <div class="prueba">
+
+                                                                <label class="text-secondary pr-1"
+                                                                    for="ramo">Moneda</label>
+                                                                <select class="text-secondary ml-2" id="ramoSel"
+                                                                    name="ramo">
+                                                                    <option value="" disabled selected hidden>
+                                                                        Seleccionar</option>
+                                                                    <option value="1">Opcion 1</option>
+                                                                    <option value="2">Opcion 2</option>
+                                                                    <option value="3">Opcion 3</option>
+                                                                </select>
+
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-4">
+                                                            <div class="prueba">
+                                                                INSTITUCION O EMPRESA A LA QUE PERTENECE
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-3">
+                                                            <div class="col-8 col-lg-6 pl-0">
+                                                                <input type="text" placeholder="00.000.000">
+                                                            </div>
+                                                            <div class="col-4 col-lg-6 pl-0">
+                                                                <label class="text-secondary pr-lg-1"
+                                                                    for="rutID">-</label>
+                                                                <input class="fechaPropuestas2 w-50" name="rutID"
+                                                                    type="text" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-3">
+                                                            <div class="prueba"><input type="text"
+                                                                    placeholder="Dirección">
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-4">
+                                                            <div class="prueba"><input type="text" placeholder="Comuna">
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-4">
+                                                            <div class="prueba">
+                                                                UNIDAD REPARTICION AGENCIA, OF. ZONAL.
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-4">
+                                                            <div class="prueba pt-1"><input type="text"
+                                                                    placeholder="Nombre">
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-3">
+                                                            <div class="prueba">
+                                                                <label class="text-secondary pr-1"
+                                                                    for="ramo">Región</label>
+                                                                <select class="text-secondary ml-2" id="ramoSel"
+                                                                    name="ramo">
+                                                                    <option value="" disabled selected hidden>
+                                                                        Seleccionar</option>
+                                                                    <option value="1">Opcion 1</option>
+                                                                    <option value="2">Opcion 2</option>
+                                                                    <option value="3">Opcion 3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" d-flex flex-wrap card-text align-items-baseline
+                                                        justify-content-between pb-5">
+                                                            <div class="prueba">
+                                                                <label class="text-secondary pr-1"
+                                                                    for="ramo">Teléfono</label>
+                                                                <select class="text-secondary" id="ramoSel" name="ramo">
+                                                                    <option value="" disabled selected hidden>
+                                                                        Seleccionar</option>
+                                                                    <option value="1">Opcion 1</option>
+                                                                    <option value="2">Opcion 2</option>
+                                                                    <option value="3">Opcion 3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- 2nd row -->
+                                                    <div class="col-12 col-lg-6 d-flex flex-column">
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                            <div class="prueba"><input type="text"
+                                                                    placeholder="Código corredor">
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between py-4">
+                                                            <div class="prueba"><input type="text" placeholder="Nombre">
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-3">
+                                                            <div class="prueba"><input type="text" placeholder="Región">
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between pb-5">
+                                                            <div class="prueba"><input type="text"
+                                                                    placeholder="Teléfono">
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex flex-wrap card-text align-items-baseline justify-content-between py-4">
+                                                            <div class="prueba"><input type="text"
+                                                                    placeholder="Dirección">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" d-flex flex-wrap card-text align-items-baseline
+                                                        justify-content-between pb-5">
+                                                            <div class="prueba">
+                                                                <label class="text-secondary pr-1" for="ramo">Ubic.
+                                                                    Geo</label>
+                                                                <select class="text-secondary" id="ramoSel" name="ramo">
+                                                                    <option value="" disabled selected hidden>
+                                                                        Seleccionar</option>
+                                                                    <option value="1">Opcion 1</option>
+                                                                    <option value="2">Opcion 2</option>
+                                                                    <option value="3">Opcion 3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- DEPENDENCIES -->
-    <!-- JQuery first, then Popper, then Bootstrap JS -->
-    <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <script src="../node_modules/popper.js/dist/popper.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+            <!-- DEPENDENCIES -->
+            <!-- JQuery first, then Popper, then Bootstrap JS -->
+            <script src="../node_modules/jquery/dist/jquery.js"></script>
+            <script src="../node_modules/popper.js/dist/popper.js"></script>
+            <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 
 </html>
