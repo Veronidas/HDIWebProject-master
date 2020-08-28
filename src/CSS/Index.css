@@ -83,15 +83,15 @@ input {
   border: 1px solid #CECECE !important;
 }
 
-#fechaPropuestas, .fechaPropuestas {
-  width: 32%;
+.inputDenunciaSmall {
+  width: 20%;
 }
 
 .fechaPropuestas2{
  width: 10%;
 }
 
-#ramo, #poliza, #cert {
+#ramo, #poliza, #cert, .inputDenuncia, #fechaPropuestas, .fechaPropuestas  {
     width: 30%;
 }
 
