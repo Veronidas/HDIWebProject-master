@@ -743,8 +743,86 @@
   position: absolute;
   text-align: left;
 }
-
 /* END RESPONSIVE TITLES MIS-SEGUROS-DETALLE / TABLE 6*/
+/* RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 1*/
+
+.tableDatosGenerales td:nth-child(1):before {
+  content: "Corredor";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableDatosGenerales td:nth-child(2):before {
+  content: "Teléfono";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableDatosGenerales td:nth-child(3):before {
+  content: "Fecha denuncio";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableDatosGenerales td:nth-child(4):before {
+  content: "Fecha termino vigencia";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableDatosGenerales td:nth-child(5):before {
+  content: "Ramo";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableDatosGenerales td:nth-child(6):before {
+  content: "Póliza";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableDatosGenerales td:nth-child(7):before {
+  content: "Ítem/Certif.";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableDatosGeneralestd:nth-child(8):before {
+  content: "Oficina";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableDatosGenerales td:nth-child(9):before {
+  content: "Prima Afecta";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableDatosGenerales td:nth-child(10):before {
+  content: "Prima Exenta";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+/* EMD RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 1*/
+
 
     tbody tr {
       font-size: 12px;
