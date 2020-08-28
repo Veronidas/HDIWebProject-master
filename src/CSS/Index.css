@@ -1,5 +1,5 @@
 html {
-  width:100;
+  width:100%;
 }
 
 body {
@@ -390,7 +390,7 @@ span {
   font-size:13px !important;
 }
 
-.btnLogin::after {
+/* .btnLogin::after {
 
   background-color: #79B530;
   color: #fff;
@@ -407,7 +407,7 @@ span {
   text-align: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-}
+} */
 
 .btnPagado {
   color: #fff;
