@@ -78,7 +78,7 @@ input {
 .input-border{
   border: 1px solid #CECECE !important;
 }
-#ramoSel, {
+#ramoSel {
   width: 70% !important;
   border: 1px solid #CECECE !important;
 }
@@ -97,6 +97,11 @@ input {
 
 #siniestro-nr {
     text-align: center;
+}
+
+.preguntasFrecuentes a {
+      color: #333;
+      text-decoration: none;
 }
 
 .title {
@@ -570,7 +575,6 @@ counter-reset: step;
   text-align: center;
   font-weight: bold;
 
-  
 }
 
 select {
@@ -611,3 +615,51 @@ textarea {
   box-sizing: border-box;	
   width: 90%;
   }
+
+  @media screen and (max-width: 992px) {
+    .preguntasFrecuentes i {
+      display: none;
+    }
+  }
+
+  [class*=" icon-"], [class^=icon-] {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased
+}
+
+.pull-right {
+    float: right; 
+}
+
+
+.icon-plus:before {
+    content: "\f067"
+}
+
+  .accordion p{
+    padding-left: 3%;
+    font-size: 14px;
+    
+  }
+
+  .accordion h4 {
+    background: #f0eeee;
+    cursor: pointer;
+    padding: 18px 10px;
+    font-size: 18px;
+    font-family: hdisanscond-bold-web, Arial, sans-serif
+}
+.accordion h4 i {
+    font-size: 12px;
+    line-height: 19px;
+    background:#006729;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: -5px;
+}
+.accordion .det {
+    display: none
+}
