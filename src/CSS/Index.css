@@ -124,7 +124,7 @@ font-size:  14px;
   font-size: 16px;
 }
 
-btn-hdi2 {
+.btn-hdi2 {
     color: #fff;
     font-size: 16px;
     padding: 10px 0;
@@ -573,6 +573,10 @@ counter-reset: step;
   
 }
 
+select {
+  width: 90%;
+  border: #979797;
+}
 .progressbar li::after {
   content: '';
   position: absolute;
@@ -601,3 +605,9 @@ counter-reset: step;
   width: 100%;
 }
 
+textarea {	
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;	
+  width: 90%;
+  }

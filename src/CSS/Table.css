@@ -153,7 +153,7 @@
   }
   .xyz td, .xyz th {
     text-align: left;
-    padding-left: 5%;
+    /* padding-left: 52%; */
   }
   table td.l, table th.l {
     text-align: center;
@@ -821,10 +821,279 @@
   text-align: left;
 }
 
-/* EMD RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 1*/
+/* END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 1*/
+/* RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 2*/
+.datosAsegurado  td:nth-child(1):before {
+  content: "RUT";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
 
+}
+.datosAsegurado  td:nth-child(2):before {
+  content: "Nombre o razón social";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
 
-    tbody tr {
+/* END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 2*/
+/* RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 3*/
+.tableDireccion td:nth-child(1):before {
+  content: "Dirección";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/* END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 3*/
+/* RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 4*/
+
+.tableOtrosDatos td:nth-child(1):before {
+  content: "Teléfono casa";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableOtrosDatos td:nth-child(2):before {
+  content: "Comuna";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableOtrosDatos td:nth-child(3):before {
+  content: "Ciudad";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableOtrosDatos td:nth-child(4):before {
+  content: "Región";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+.tableOtrosDatos td:nth-child(5):before {
+  content: "Fecha ocurrencia ";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/*END  RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 4*/
+/* RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 5*/
+
+.tableMateria td:nth-child(1):before {
+  content: "Materia asegurada";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableMateria td:nth-child(2):before {
+  content: "Hora";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableMateria td:nth-child(3):before {
+  content: "Área";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/* END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 5*/
+/*  RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 6*/
+
+.tableRiesgo td:nth-child(1):before {
+  content: "Dirección del riesgo";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableRiesgo td:nth-child(2):before {
+  content: "Comuna";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableRiesgo td:nth-child(3):before {
+  content: "Región";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/* END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 6*/
+/*  RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 7*/
+
+.tableTipo td:nth-child(1):before {
+  content: "Tipo";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableTipo td:nth-child(2):before {
+  content: "Fecha de salida";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableTipo td:nth-child(3):before {
+  content: "Origen";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableTipo td:nth-child(4):before {
+  content: "Destino";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableTipo td:nth-child(5):before {
+  content: "Vía";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/* END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 7*/
+/*  RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 8*/
+
+.tableLinea td:nth-child(1):before {
+  content: "Nombre nave/Línea aérea/Empresa";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableLinea td:nth-child(2):before {
+  content: "Materia asegurada";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}   
+
+/*  END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 8*/
+/*  RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 9*/
+
+.tableIdentificacion td:nth-child(1):before {
+  content: "ID unidad policial";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableIdentificacion td:nth-child(2):before {
+  content: "Fecha de Constancia";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableIdentificacion td:nth-child(3):before {
+  content: "Folio";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+
+.tableIdentificacion td:nth-child(4):before {
+  content: "Párrafo";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}
+/* END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 9*/
+/*  RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 10*/
+
+.tableProceso td:nth-child(1):before {
+  content: "Nº de Proceso";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableProceso td:nth-child(2):before {
+  content: "Fecha Citación";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}   
+
+/*  END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 10*/
+/*  RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 11*/
+
+.tableJuzgado td:nth-child(1):before {
+  content: "Juzgado";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableJuzgado td:nth-child(2):before {
+  content: "Bomberos";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}   
+
+/*  END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 11*/
+/*  RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 12*/
+
+.tableRelato td:nth-child(1):before {
+  content: "Relato del Accidente";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+
+}
+.tableRelato td:nth-child(2):before {
+  content: "Daños";
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+}   
+
+/*  END RESPONSIVE TITLES DENUNCIA SINITESTROS OTROS SEGUROS DETALLE / TABLE 12*/
+tbody tr {
       font-size: 12px;
     }
 
